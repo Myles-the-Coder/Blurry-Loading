@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bg {
+  background: url("https://3.bp.blogspot.com/-YSaOpbJjs7I/XFUltJxNiUI/AAAAAAAABz0/iERPI8HyQJUEvSt4ajtJXc4gpmxj44O3wCKgBGAs/w3840-h1600-p-k-no-nu/beach-sea-nature-scenery-20-4K.jpg")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 30px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  color: aliceblue;
+  font-size: 50px;
+}
